@@ -1,10 +1,3 @@
-# Common directory variables
-project_directory="~/Documents/projects"
-editor="atom"
-
-# Gotos
-alias projects="cd ${project_directory}"
-
 # Restarts shell
 # Call after making changes w/o having to restart
 alias refresh="source ~/.zshrc && clear"
