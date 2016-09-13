@@ -7,7 +7,7 @@ source $dotfile_dir/vars/colors.sh
 # A bunch of aliases
 source $dotfile_dir/aliases.sh
 
-# Utilities loosely organized category
+# Functions loosely organized category
 source $dotfile_dir/functions/hiddenfiles.sh
 source $dotfile_dir/functions/localhost.sh
 source $dotfile_dir/functions/github.sh
