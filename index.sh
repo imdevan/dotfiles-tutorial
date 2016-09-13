@@ -8,6 +8,6 @@ source ~/.dotfiles/vars/colors.sh
 source ~/.dotfiles/aliases.sh
 
 # Utilities loosely organized category
-source ~/.dotfiles/hiddenfiles.sh
-source ~/.dotfiles/localhost.sh
-source ~/.dotfiles/github.sh
+source ~/.dotfiles/functions/hiddenfiles.sh
+source ~/.dotfiles/functions/localhost.sh
+source ~/.dotfiles/functions/github.sh
