@@ -1,13 +1,13 @@
-# Initialize aliases and functions
-dotfile_dir="~/.dotfiles"
+# Chance this is you change the location of these dotfiles
+dotfile_dir=~/.dotfiles
 
 # Variables used everywhere
-source ~/.dotfiles/vars/colors.sh
+source $dotfile_dir/vars/colors.sh
 
 # A bunch of aliases
-source ~/.dotfiles/aliases.sh
+source $dotfile_dir/aliases.sh
 
 # Utilities loosely organized category
-source ~/.dotfiles/functions/hiddenfiles.sh
-source ~/.dotfiles/functions/localhost.sh
-source ~/.dotfiles/functions/github.sh
+source $dotfile_dir/functions/hiddenfiles.sh
+source $dotfile_dir/functions/localhost.sh
+source $dotfile_dir/functions/github.sh
