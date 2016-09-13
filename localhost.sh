@@ -1,7 +1,7 @@
 # Opening localhost ports
 alias l3="open http://localhost:3000"
 alias l4="open http://localhost:4000"
-alias l8="open https://localhost:8443/"
+alias l8="open https://localhost:8000"
 alias l80="open http://localhost:8080"
 
 # Opens localhost at port

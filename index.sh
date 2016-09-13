@@ -1,4 +1,5 @@
 # Initialize aliases and functions
+dotfile_dir="~/.dotfiles"
 
 # Variables used everywhere
 source ~/.dotfiles/vars/colors.sh
@@ -9,7 +10,4 @@ source ~/.dotfiles/aliases.sh
 # Utilities loosely organized category
 source ~/.dotfiles/hiddenfiles.sh
 source ~/.dotfiles/localhost.sh
-source ~/.dotfiles/notes.sh
 source ~/.dotfiles/github.sh
-source ~/.dotfiles/musics.sh
-source ~/.dotfiles/lunch.sh
