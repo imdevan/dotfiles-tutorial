@@ -8,9 +8,10 @@ alias doc="python -mwebbrowser https://docs.google.com/create" # new doc
 alias docs="python -mwebbrowser http://docs.google.com"        # main docs folder
 
 # Git
-alias conflicts="git commit --amend --no-edit" # does not push
+alias conflicts="git diff --name-only --diff-filter=U" # does not push
 alias no-edit="git commit --amend --no-edit" # does not push
 alias reset="git fetch upstream && git reset --hard upstream/master" # Reset and push
+alias rebase="git fetch upstream && git rebase upstream/master" # Reset and push
 
 # System
 alias ipaddress="ifconfig"
