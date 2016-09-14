@@ -3,6 +3,15 @@
 # No spaces between name and string
 # alias <name>=<string>
 
+# Default editor
+editor="atom"
+
+# Function to create new aliases
+function new-alias() {
+    echo "alias ${1}=\"${2}\"" >> ~/.dotfiles/aliases.sh
+}
+alias na="new-alias"
+
 # Restarts shell
 # Call after making changes w/o having to restart
 alias refresh="source ~/.zshrc && clear"
@@ -21,3 +30,6 @@ alias rebase="git fetch upstream && git rebase upstream/master" # Fetch and reba
 # System
 alias off="sudo shutdown -h now"    # Shutdown
 alias sleep="pmset sleepnow"        # Sleep
+
+# Open dotfiles
+alias dotfiles="${editor} ~/.dotfiles"
