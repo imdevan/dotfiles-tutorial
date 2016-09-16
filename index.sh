@@ -11,3 +11,4 @@ source $dotfile_dir/aliases.sh
 source $dotfile_dir/functions/hiddenfiles.sh
 source $dotfile_dir/functions/localhost.sh
 source $dotfile_dir/functions/github.sh
+source $dotfile_dir/functions/current-issue.sh
