@@ -3,30 +3,10 @@
 # No spaces between name and string
 # alias <name>=<string>
 
-# Default editor
-editor="atom"
-work="~/Documents/projects/project-whitewater"
-aliases_file=~/.dotfiles/aliases.sh
-
 # Restarts shell
 # Call after making changes w/o having to restart
 alias refresh="source ~/.zshrc && clear"
 alias r="refresh"
-
-# Function to create new aliases
-function new-alias() {
-    echo "alias ${1}=\"${2}\"" >> $aliases_file
-    refresh
-}
-alias na="new-alias"
-
-# Bookmark position
-function bookmark() {
-    echo "${green}alias ${1}=\"$(pwd)\" ${purple} created!"
-    echo "alias ${1}=\"$(pwd)\"" >> $aliases_file
-    refresh
-}
-alias b="bookmark"
 
 
 # Google docs
@@ -45,25 +25,4 @@ alias off="sudo shutdown -h now"    # Shutdown
 alias sleep="pmset sleepnow"        # Sleep
 
 # Open dotfiles
-alias dotfiles="${editor} ~/.dotfiles"
-alias n="npm start"
-alias p="cd ${work}"
-
-# Created from bookmark or new-alias
-alias i="/Users/devanhuapaya/Documents/projects/imdevan.github.io"
-alias paddle="/Users/devanhuapaya/Documents/projects/project-whitewater/paddle"
-alias a="atom ."
-alias v="vim ."
-alias grc="git rebase --continue"
-alias kill="killall node"
-alias nt="npm test"
-alias gfu="git fetch upstream"
-alias m="git checkout master"
-alias stash="git stash"
-alias ni="npm install"
-alias ga="git add ."
-alias gcane="commit --amend --no-edit"
-alias gcane="git commit --amend --no-edit"
-alias clean="rm -rf node_modules && npm install"
-alias liquid-docs="open https://shopify.github.io/liquid/tags/control-flow/"
-alias diff="git diff"
+# alias dotfiles="cd ~/.dotfiles"

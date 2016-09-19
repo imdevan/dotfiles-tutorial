@@ -6,7 +6,6 @@ function git-add-push() {
     git commit -m "${@}" &&
     git push
 }
-alias gap="git-add-push"
 
 # Pulls down pull request from upstream and creates branch
 function pull-request() {
@@ -14,4 +13,3 @@ function pull-request() {
     git checkout pr-${1} &&
     git remote prune upstream;
 }
-alias pr="pull-request"
